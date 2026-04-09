@@ -13,16 +13,16 @@ local redzlib = {
         Cyberpunk = {
             ["Color Hub 1"] = ColorSequence.new({
                 ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(186, 85, 211)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 255, 255)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))
             }),
             ["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
-            ["Color Stroke"] = Color3.fromRGB(186, 85, 211),
-            ["Color Theme"] = Color3.fromRGB(186, 85, 211),
-            ["Color Text"] = Color3.fromRGB(186, 85, 211),
-            ["Color Dark Text"] = Color3.fromRGB(186, 85, 211),
+            ["Color Stroke"] = Color3.fromRGB(255, 255, 255),
+            ["Color Theme"] = Color3.fromRGB(255, 255, 255),
+            ["Color Text"] = Color3.fromRGB(255, 255, 255),
+            ["Color Dark Text"] = Color3.fromRGB(255, 255, 255),
             ["Color Element"] = Color3.fromRGB(0, 0, 0),
-            ["Color Element Stroke"] = Color3.fromRGB(186, 85, 211)
+            ["Color Element Stroke"] = Color3.fromRGB(255, 255, 255)
         }
     }, 
     Info = {
@@ -1453,7 +1453,7 @@ function redzlib:MakeWindow(Configs)
         Position = UDim2.new(0, 0, 0, 0),
         BackgroundTransparency = 1,
         Image = "rbxassetid://0", 
-        ImageColor3 = Color3.fromRGB(0, 255, 0),
+        ImageColor3 = Color3.fromRGB(255, 255, 255),
         ImageTransparency = 0,
         ScaleType = Enum.ScaleType.Crop,
         ZIndex = 0
